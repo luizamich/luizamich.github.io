@@ -9,6 +9,7 @@ html {
     background-image: url("wall5.jpg");
     background-position: bottom;
     background-attachment: fixed;
+    background-size: cover;
     color:white;
     font-size:16px;
 }
