@@ -219,5 +219,7 @@ footer p {
    form {
        margin:0px;
    }
-   
+   input {
+       padding: 10px 0 10px 0;	   
+   }
 }
