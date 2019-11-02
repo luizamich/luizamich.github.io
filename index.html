@@ -11,9 +11,9 @@
     <body>
 <nav>
     <ul id="menu">
-        <li class="list"><a class="link" href="#about">About</a></li>
-        <li class="list"><a class="link" href="#work">Work</a></li>
-        <li class="list"><a class="link" href="#footer">Contact</a></li>
+        <li class="list"><a class="link" href="#about">about</a></li>
+        <li class="list"><a class="link" href="#work">work</a></li>
+        <li class="list"><a class="link" href="#footer">contact</a></li>
     </ul>
 </nav>
 <header>
@@ -30,18 +30,32 @@
 <section id="work">
 <h3 class="title">my work.</h3><br>
 <div id="gallery"></div>
-<a href="#"><img class="img" src="photo1.jpg" alt="fruits"/></a>
-<a href="#"><img class="img" src="photo2.jpg" alt="bread"/></a>
-<a href="#"><img class="img" src="photo3.jpg" alt="plums"/></a>
-<a href="#"><img class="img" src="photo4.jpg" alt="cake"/></a>
+<a href="#"><img class="img" src="photo1.jpg"/></a>
+<a href="#"><img class="img" src="photo2.jpg"/></a>
+<a href="#"><img class="img" src="photo3.jpg"/></a>
+<a href="#"><img class="img" src="photo4.jpg"/></a>
 </div>
 </section>
 
+<section id="contact">
+<h3 class="title">contact.</h3><br>
+<form method="GET" action="">
+<label for="name">name</label>
+<label for="mail">mail</label>
+<input type="text" name="name"/>
+<input type="email" name="mail"/>
+<label for="message">message</label>
+<input type="text" name="message" id="message"/>
+<input type="submit" value="send message" id="send"/>
+<input type="reset" value="reset" id="reset"/>
+</form>
+</section>
+
 </main>
-<footer id="footer">
+<footer>
     <a href="mailto:aaaabbbbbcc@op.pl" class="icon" id="mail" href=""><i class="fa fa-envelope"></i></a>
-    <a class="icon" id="fb" href="https://www.facebook.com/bla.blaa.1612"><i class="fa fa-facebook"></i></a>
-    <a class="icon" id="git" href="https://github.com/luizamich"><i class="fa">&#xf09b;</i></a>
+    <a class="icon" id="fb" href=""><i class="fa fa-facebook"></i></a>
+    <a class="icon" id="git" href=""><i class="fa">&#xf09b;</i></a>
     <a class="icon" id="linked" href=""><i class="fa fa-linkedin"></i></a>
     <p>&copy; 2019 Luiza Michalska</p>
 </footer>
